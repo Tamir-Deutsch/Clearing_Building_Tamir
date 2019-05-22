@@ -1,0 +1,62 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>פינוי בינוי</title>
+    <meta name="description" content="clearing&building" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="TamirDeutsch" />
+
+    <!-- CSS -->
+
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <!--jQuery library-->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <!--הקוד שמפעיל את תפריט הניווט-->
+    <script src="jScripts/myScript.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <a href="index.html">
+                <img id="logo" src="../images/logo.jpg"/> 
+                <p>פינוי בינוי</p>
+            </a>
+            <nav>
+                <ul>
+                    <li><a class="about">אודות</a></li>
+                    <li><a id="howToPlay" >איך משחקים?</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="aboutDiv" class="popUp bounceInDown hide">
+            <a class="closeAbout">X</a>
+            <br />
+            <img  id="logo" src="../images/logo.jpg" /> 
+            <p><b>אפיון ופיתוח: </b>טמיר דויטש</p>
+            <p>
+               <b>פותח במסגרת הקורסים: </b>
+                סביבות לימוד אינטראקטיביות 1 & אנימציה, תשע"ט
+            </p> 
+            
+            <a id="HITlogo" href="http://www.hit.ac.il/telem/overview">
+                הפקולטה לטכנולוגיות למידה
+                <div>המכון הטכנולוגי בחולון</div>
+            </a>
+        </div>
+  
+
+        <div id="gameArea" class="">
+            <!--src = הקישור של דף המשחק שלכם (לא קובץ האנימייט)-->
+            <iframe id="gameIframe" src="https://tamir-deutsch.github.io/Pinuy_Binuy_Game/Clearing_Building_tamir.html" frameBorder="0" allowfullscreen="">Browser not compatible.</iframe>
+        </div>
+    </div>
+</body>
+
+</html>
